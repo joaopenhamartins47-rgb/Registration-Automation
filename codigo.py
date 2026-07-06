@@ -18,8 +18,11 @@ def main():
 
     pyautogui.write(link)
     pyautogui.press("enter")
+
 # Fazer uma pausa maior pois mexe com a internet e pra dar tempo pro site carregar
     time.sleep(3)
+
+# Passo 2: Fazer login
     pyautogui.click(x=674, y=447) #Baseado em 1920x1080
     pyautogui.write("pythonimpressionador@gmail.com") #Email
     pyautogui.press("tab")
@@ -30,7 +33,7 @@ def main():
     #Pausa pro formulario carregar
     time.sleep(3)
 
-# Passo 2: Fazer login
+
 # Passo 3: Abrir a base de dados
 # Passo 4: Cadastrar 1 produto
 # Passo 5: Repetir o passo 4 ate acabar a lista de produtos
