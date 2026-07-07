@@ -1,13 +1,13 @@
 # Registration Automation
 
-Primeiro episódio do curso da Hashtag Treinamentos, onde aprendemos sobre a biblioteca pyautogui. O intuito do projeto é a automação de uma base de dados para cadastrar produtos de forma automática, economizando horas de trabalho manual.
+First episode of the Hashtag Treinamentos course, where we learned about the pyautogui library. The goal of the project is to automate a product database registration process, saving hours of manual work.
 
-O script lê um CSV com os produtos (código, marca, tipo, categoria, preço, custo e observação) e preenche cada campo sozinho num sistema web, simulando teclado e mouse, até acabar a lista inteira.
+The script reads a CSV with the products (code, brand, type, category, unit price, cost, and notes) and fills in each field by itself on a web system, simulating keyboard and mouse, until it finishes the whole list.
 
-As linhas de código foram feitas especificamente pra resolver esse problema de automação no ambiente de treinamento da Hashtag. O email e a senha são meramente ilustrativos, num site sem verificação de login real, e as coordenadas de tela foram usadas de acordo com as posições na minha tela, com resolução 1920x1080 (então rodar em outra resolução provavelmente vai quebrar os cliques).
+The code was built specifically to solve this automation problem in Hashtag's training environment. The email and password are just illustrative, on a site with no real login verification, and the screen coordinates were set based on my screen positions, at 1920x1080 resolution (so running it on a different resolution will probably break the clicks).
 
-De resto, resolve um problema real de cadastro manual repetitivo e mostra um pouco do poder da automação com pyautogui.
+Other than that, it solves a real repetitive manual registration problem and shows a bit of what pyautogui automation can do.
 
-Stack: Python, pandas (leitura do CSV) e pyautogui (simulação de mouse e teclado).
+Stack: Python, pandas (CSV reading) and pyautogui (mouse and keyboard simulation).
 
-Pra rodar: `uv sync` e depois `uv run codigo.py`.
+To run: `uv sync` then `uv run codigo.py`.
