@@ -10,4 +10,4 @@ Other than that, it solves a real repetitive manual registration problem and sho
 
 Stack: Python, pandas (CSV reading) and pyautogui (mouse and keyboard simulation).
 
-To run: `uv sync` then `uv run codigo.py`.
+To run: `uv sync` then `uv run automation.py`.
